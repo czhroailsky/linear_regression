@@ -3,10 +3,6 @@ import matplotlib.pyplot as plt
 
 class LinearModel(object):
 
-    """ eta <- learning rate: is an hyperparameter that controls how much we are
-    adjusting the weights with respect the loss gradient.
-        n_iter <- Number of iteration to adjust the weights (beta)"""
-
     def __init__(self, eta=0.1, n_iter=50):
         self.eta = eta
         self.n_iter = n_iter
